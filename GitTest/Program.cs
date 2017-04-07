@@ -10,12 +10,15 @@ namespace GitTest
     {
         static void Main(string[] args)
         {
-            for (int i = 1; i <= 100; i++)
+            Console.WriteLine("请输入Y/N：");
+            string fiels = Console.ReadLine();
+            if(fiels=="Y")
             {
-                if(i%2==0)
-                {
-                    Console.WriteLine(i);
-                }
+                Console.WriteLine("OK");
+            }
+            else
+            {
+                Console.WriteLine("NO！");
             }
 
 
