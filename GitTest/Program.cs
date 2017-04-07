@@ -14,11 +14,11 @@ namespace GitTest
             string fiels = Console.ReadLine();
             if(fiels=="Y")
             {
-                Console.WriteLine("你同意了使用github");
+                Console.WriteLine("OK");
             }
             else
             {
-                Console.WriteLine("你否决了！");
+                Console.WriteLine("NO！");
             }
 
 
